@@ -84,7 +84,9 @@ Yslow так же говорит нам о проблемах с количес�
 Ниже приведена выдержка - это стили, скрипты и иконки:
 
 > https://lifehacker.ru/wp-content/themes/lifehacker/static/fonts/style.css?ver=13
+
 > https://lifehacker.ru/wp-content/plugins/lh-social-slider/assets/js/common.js?ver=1.8
+
 > https://lifehacker.ru/wp-content/themes/lifehacker/static/img/logo.svg
 
 ![09](https://cloud.githubusercontent.com/assets/18663439/17390218/a7211dce-5a13-11e6-8bbe-3430ddca3099.png)
@@ -108,7 +110,9 @@ Yslow так же говорит нам о проблемах с количес�
 
 Несмотря на то что большинство файлов на сайте минифицированы, есть и исключения. Анализаторы PageSpeed и Yslow сообщают о необходимости минификации файлов, среди которых есть следующие:
 > https://lifehacker.ru/wp-content/plugins/lh-mumigrate/static/public/css/main.css?ver=4.5.3
+
 > https://lifehacker.ru/wp-content/themes/lifehacker/static/js/all.min.js?ver=13
+
 > https://vk.com/js/api/openapi.js
 
 Несмотря на то, что Файл "all.min.js?ver=13" имеет постфикс "min" в своем имени, на самом деле он не минифицирован, а так же содержит много комментариев, поэтому требуется выполнить корректную минификацию для него.
@@ -131,7 +135,9 @@ Yslow так же говорит нам о проблемах с количес�
 
 Анализатор Yslow сообщает:
 > This page has 37 external Javascript scripts. Try combining them into one.
+
 > This page has 20 external stylesheets. Try combining them into one.
+
 > This page has 56 external background images. Try combining them with CSS sprites.
 
 ### 13. Формирование критичной функциональности
